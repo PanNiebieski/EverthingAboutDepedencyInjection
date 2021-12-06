@@ -1,0 +1,9 @@
+﻿
+
+
+
+public interface ICezTransientService 
+    : ICezService
+{
+
+}
