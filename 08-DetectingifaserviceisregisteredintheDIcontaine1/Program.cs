@@ -6,15 +6,21 @@ var app = builder.Build();
 
 
 // try and get the new interface. 
-// This will return null if the feature isn't yet supported by the container
-var serviceProviderIsService = app.Services.GetService<IServiceProviderIsService>();
+// This will return null if
+// the feature isn't yet supported by the container
+var serviceProviderIsService = 
+    app.Services.GetService<IServiceProviderIsService>();
 
 
-// The IGreeterService is registered in the DI container
-app.MapGet("/", () => serviceProviderIsService.IsService(typeof(IGreeterService)));
+// The IGreeterService is registered
+// in the DI container
+app.MapGet("/", () => 
+serviceProviderIsService.IsService(typeof(IGreeterService)));
 
-// The GreeterService is NOT registered directly in the DI container.
-app.MapGet("/C", () => serviceProviderIsService.IsService(typeof(GreeterService)));
+// The GreeterService is NOT registered directly
+// in the DI container.
+app.MapGet("/C", () => 
+serviceProviderIsService.IsService(typeof(GreeterService)));
 
 
 

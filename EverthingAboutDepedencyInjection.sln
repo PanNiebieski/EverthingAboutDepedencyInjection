@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-ImplementingDIFactory1", "ImplementingDIFactory\01-ImplementingDIFactory1.csproj", "{DCF387B5-99F3-4079-ADBA-978CD77A6D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ImplementingDIFactory1", "ImplementingDIFactory\01-ImplementingDIFactory1.csproj", "{DCF387B5-99F3-4079-ADBA-978CD77A6D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-ImplementingDIFactory2", "ImplementingDIFactory2\01-ImplementingDIFactory2.csproj", "{292F852E-C96A-476D-A8B8-9ED26457227E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ImplementingDIFactory2", "ImplementingDIFactory2\01-ImplementingDIFactory2.csproj", "{292F852E-C96A-476D-A8B8-9ED26457227E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-RegisteringaServicewithMultipleInterfaces1", "RegisteringaServicewithMultipleInterfaces\02-RegisteringaServicewithMultipleInterfaces1.csproj", "{E2E83ED1-C45F-479A-8A9B-11F78384588B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-RegisteringaServicewithMultipleInterfaces1", "RegisteringaServicewithMultipleInterfaces\02-RegisteringaServicewithMultipleInterfaces1.csproj", "{E2E83ED1-C45F-479A-8A9B-11F78384588B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-RegisteringaServicewithMultipleInterfaces2", "RegisteringaServicewithMultipleInterfaces2\02-RegisteringaServicewithMultipleInterfaces2.csproj", "{FD0D86F8-5D20-4E03-9452-470106A12968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-RegisteringaServicewithMultipleInterfaces2", "RegisteringaServicewithMultipleInterfaces2\02-RegisteringaServicewithMultipleInterfaces2.csproj", "{FD0D86F8-5D20-4E03-9452-470106A12968}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-DisposingScopedServicesonDemand1", "DisposingScopedServicesonDemand\04-DisposingScopedServicesonDemand1.csproj", "{CE456648-8280-4628-BA74-94E38D5FDDD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-DisposingScopedServicesonDemand1", "DisposingScopedServicesonDemand\04-DisposingScopedServicesonDemand1.csproj", "{CE456648-8280-4628-BA74-94E38D5FDDD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-MultipleImplementationsOfAnInterface1", "03-MultipleImplementationsOfAnInterface\03-MultipleImplementationsOfAnInterface1.csproj", "{DBDAB4EC-E20D-43A5-8931-A5AE5E511334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-MultipleImplementationsOfAnInterface1", "03-MultipleImplementationsOfAnInterface\03-MultipleImplementationsOfAnInterface1.csproj", "{DBDAB4EC-E20D-43A5-8931-A5AE5E511334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-MultipleImplementationsOfAnInterface2", "03-MultipleImplementationsOfAnInterface2\03-MultipleImplementationsOfAnInterface2.csproj", "{83F22603-960B-48B1-ABC3-58CF0F480E71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-MultipleImplementationsOfAnInterface2", "03-MultipleImplementationsOfAnInterface2\03-MultipleImplementationsOfAnInterface2.csproj", "{83F22603-960B-48B1-ABC3-58CF0F480E71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-ImplementingDIFactory", "01-ImplementingDIFactory", "{BB9B4FF0-9E04-40DE-B600-36E31E9FC56E}"
 EndProject
@@ -27,41 +27,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-DisposingScopedServiceso
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GothasAndTricks", "GothasAndTricks", "{1B10B159-DDA0-4C50-A99C-677EEC117461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeCyclesOfDepedencyInjection", "LifeCyclesOfDepedencyInjection\LifeCyclesOfDepedencyInjection.csproj", "{BC5A5BCF-CF22-48A9-810F-68FAF9889AE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeCyclesOfDepedencyInjection", "LifeCyclesOfDepedencyInjection\LifeCyclesOfDepedencyInjection.csproj", "{BC5A5BCF-CF22-48A9-810F-68FAF9889AE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00-NoNeedForInterface1", "NoNeedForInterface\00-NoNeedForInterface1.csproj", "{5C01FD6C-1FC8-44B0-8FD4-B95A3AB39187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-NoNeedForInterface1", "NoNeedForInterface\00-NoNeedForInterface1.csproj", "{5C01FD6C-1FC8-44B0-8FD4-B95A3AB39187}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-NoNeedForInterface", "00-NoNeedForInterface", "{B80BEE54-62B0-4AE0-9D2A-FDB5BF9C4D55}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-DependencyInjectionContainerAlwaysDisposesObjects", "05-DependencyInjectionContainerAlwaysDisposesObjects", "{B928AF97-18B9-4B4D-B443-BC682C056A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-DependencyInjectionContainerAlwaysDisposesObjects1", "05-DependencyInjectionContainerAlwaysDisposesObjects1\05-DependencyInjectionContainerAlwaysDisposesObjects1.csproj", "{87B48E59-67DE-4AC0-BE1A-B5ADE14D576A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-DependencyInjectionContainerAlwaysDisposesObjects1", "05-DependencyInjectionContainerAlwaysDisposesObjects1\05-DependencyInjectionContainerAlwaysDisposesObjects1.csproj", "{87B48E59-67DE-4AC0-BE1A-B5ADE14D576A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-AlwaysValidateforCaptiveDependencies", "06-AlwaysValidateforCaptiveDependencies", "{3667C627-8437-4AF3-BF9E-3ED85E151C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-AlwaysValidateforCaptiveDependencies1", "06-AlwaysValidateforCaptiveDependencies1\06-AlwaysValidateforCaptiveDependencies1.csproj", "{38512048-B676-44C4-9252-386BA6FE77F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-AlwaysValidateforCaptiveDependencies1", "06-AlwaysValidateforCaptiveDependencies1\06-AlwaysValidateforCaptiveDependencies1.csproj", "{38512048-B676-44C4-9252-386BA6FE77F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-Decorator", "07-Decorator", "{0C0278CB-7099-45A2-9381-177B491D55B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Decorator1", "07-Decorator1\07-Decorator1.csproj", "{34939E3F-3964-49B4-AF86-5EFABB154520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-Decorator1", "07-Decorator1\07-Decorator1.csproj", "{34939E3F-3964-49B4-AF86-5EFABB154520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Decorator2", "07-Decorator2\07-Decorator2.csproj", "{86C91CF0-8223-4B18-A789-CF05D463D968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-Decorator2", "07-Decorator2\07-Decorator2.csproj", "{86C91CF0-8223-4B18-A789-CF05D463D968}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-DetectingifaserviceisregisteredintheDIcontaine", "08-DetectingifaserviceisregisteredintheDIcontaine", "{A63AF0CC-C9D2-4ECF-97C3-44388D2E1C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-DetectingifaserviceisregisteredintheDIcontaine1", "08-DetectingifaserviceisregisteredintheDIcontaine1\08-DetectingifaserviceisregisteredintheDIcontaine1.csproj", "{D187A2DB-40E1-4DF2-99E5-69E207602455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08-DetectingifaserviceisregisteredintheDIcontaine1", "08-DetectingifaserviceisregisteredintheDIcontaine1\08-DetectingifaserviceisregisteredintheDIcontaine1.csproj", "{D187A2DB-40E1-4DF2-99E5-69E207602455}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-HandlingIAsyncDisposableserviceswithIServiceScope", "09-HandlingIAsyncDisposableserviceswithIServiceScope", "{DF36EE98-38D7-4DBB-861A-4AA2189DFAC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-HandlingIAsyncDisposableserviceswithIServiceScope", "09-HandlingIAsyncDisposableserviceswithIServiceScope\09-HandlingIAsyncDisposableserviceswithIServiceScope.csproj", "{1F087ADD-1F66-4F65-B752-0DBFA1558B30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-HandlingIAsyncDisposableserviceswithIServiceScope", "09-HandlingIAsyncDisposableserviceswithIServiceScope\09-HandlingIAsyncDisposableserviceswithIServiceScope.csproj", "{1F087ADD-1F66-4F65-B752-0DBFA1558B30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-UsingcustomDIcontainerswithWebApplicationBuilder", "10-UsingcustomDIcontainerswithWebApplicationBuilder", "{18FFB3D4-BCC1-4A5B-91DA-510C0E2C3585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-UsingcustomDIcontainerswithWebApplicationBuilder", "10-UsingcustomDIcontainerswithWebApplicationBuilder\10-UsingcustomDIcontainerswithWebApplicationBuilder.csproj", "{24455F15-9F12-4CE1-BC4C-514DA4937420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-UsingcustomDIcontainerswithWebApplicationBuilder", "10-UsingcustomDIcontainerswithWebApplicationBuilder\10-UsingcustomDIcontainerswithWebApplicationBuilder.csproj", "{24455F15-9F12-4CE1-BC4C-514DA4937420}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-Howtoregisterdependencyinjectionwithgenerictypes", "11-Howtoregisterdependencyinjectionwithgenerictypes", "{94893030-D310-4267-80B2-C2009251D58F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Howtoregisterdependencyinjectionwithgenerictypes", "11-Howtoregisterdependencyinjectionwithgenerictypes\11-Howtoregisterdependencyinjectionwithgenerictypes.csproj", "{693ACFAB-7584-4D2E-80FA-EFCBF26152BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-Howtoregisterdependencyinjectionwithgenerictypes", "11-Howtoregisterdependencyinjectionwithgenerictypes\11-Howtoregisterdependencyinjectionwithgenerictypes.csproj", "{693ACFAB-7584-4D2E-80FA-EFCBF26152BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-MethodInjection", "12-MethodInjection", "{11626EA0-7577-4D41-A483-AAA2F34E14FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-MethodInjection", "12-MethodInjection\12-MethodInjection.csproj", "{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +141,10 @@ Global
 		{693ACFAB-7584-4D2E-80FA-EFCBF26152BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{693ACFAB-7584-4D2E-80FA-EFCBF26152BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{693ACFAB-7584-4D2E-80FA-EFCBF26152BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +178,8 @@ Global
 		{24455F15-9F12-4CE1-BC4C-514DA4937420} = {18FFB3D4-BCC1-4A5B-91DA-510C0E2C3585}
 		{94893030-D310-4267-80B2-C2009251D58F} = {1B10B159-DDA0-4C50-A99C-677EEC117461}
 		{693ACFAB-7584-4D2E-80FA-EFCBF26152BE} = {94893030-D310-4267-80B2-C2009251D58F}
+		{11626EA0-7577-4D41-A483-AAA2F34E14FB} = {1B10B159-DDA0-4C50-A99C-677EEC117461}
+		{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B} = {11626EA0-7577-4D41-A483-AAA2F34E14FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9058BE53-B3BF-44CC-A700-2CD49D0359FD}

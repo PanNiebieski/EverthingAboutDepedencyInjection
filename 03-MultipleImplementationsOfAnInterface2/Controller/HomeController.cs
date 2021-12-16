@@ -8,7 +8,8 @@ namespace MultipleImplementationsOfAnInterface.Controllers
     {
         private readonly IEnumerable<ICustomLogger> _loggers;
 
-        public HomeController(IEnumerable<ICustomLogger> loggers)
+        public HomeController
+            (IEnumerable<ICustomLogger> loggers)
         {
             _loggers = loggers;
         }

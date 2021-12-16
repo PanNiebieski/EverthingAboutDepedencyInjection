@@ -1,4 +1,5 @@
-﻿internal interface IGenericRepository<T> where T : class, new()
+﻿internal interface IGenericRepository<T> 
+    where T : class, new()
 {
 
     public T Get()

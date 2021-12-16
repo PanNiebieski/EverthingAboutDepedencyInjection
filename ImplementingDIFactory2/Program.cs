@@ -34,10 +34,11 @@ public class SomeApplicationService
 
     public SomeApplicationService(ImplementationFactory factory)
     {
-        var featureFlag = true; /*read from configuration*/
+        var featureFlag = false; /*read from configuration*/
         _implementation = factory(featureFlag);
     }
 }
+
 
 public delegate IImplementation 
     ImplementationFactory(bool featureEnabled);

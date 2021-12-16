@@ -1,12 +1,16 @@
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped
+    (typeof(IGenericRepository<>), 
+    typeof(GenericRepository<>));
 
 
 var app = builder.Build();
 
-app.MapGet("/", (IGenericRepository<Cezary> repository) => repository.Get().ToString());
+app.MapGet("/", 
+    (IGenericRepository<Cezary> repository) => 
+    repository.Get().ToString());
 
 
 

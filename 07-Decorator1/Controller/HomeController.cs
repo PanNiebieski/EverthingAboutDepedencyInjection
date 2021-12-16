@@ -22,7 +22,8 @@ using System.Text;
             var count = _gameData.GetCountOfGames();
 
 
-            return $"Minuta : {DateTime.Now.Minute} : Liczba Gier {count}";
+            return $"Minuta : {DateTime.Now.Minute} :" +
+            $" Liczba Gier {count}";
         }
 
 

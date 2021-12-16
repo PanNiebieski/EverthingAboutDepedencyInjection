@@ -28,7 +28,8 @@ public interface IWriteNumber
     string Write();
 }
 
-public class NumberStorage : IReset, IWriteNumber
+public class NumberStorage : 
+    IReset, IWriteNumber
 {
     private int _random;
 

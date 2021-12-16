@@ -1,6 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.BuildServiceProvider(new ServiceProviderOptions
+//builder.Services.
+//BuildServiceProvider(new ServiceProviderOptions
 //{
 //    ValidateScopes = true
 //});
@@ -8,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 try
 {
     builder.Services.AddSingleton<UserService>();
-    builder.Services.AddScoped<IUserRepository, UserRepository>();
+    builder.Services.AddTransient
+        <IUserRepository, UserRepository>();
 
     var app = builder.Build();
 
@@ -20,7 +22,6 @@ try
 }
 catch (Exception ex)
 {
-
     Console.WriteLine(ex);
 
     var builder2 = WebApplication.CreateBuilder(args);

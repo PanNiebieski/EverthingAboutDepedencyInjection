@@ -1,22 +1,24 @@
 var builder = WebApplication.CreateBuilder(args);
 
-
-bool featureEnabled = true; 
+bool featureEnabled = false; 
 
 if (featureEnabled)
 {
-    builder.Services.AddScoped<IImplementation, NewImplementation>();
+    builder.Services.AddScoped
+        <IImplementation, NewImplementation>();
 }
 else
 {
-    builder.Services.AddScoped<IImplementation, OldImplementation>();
+    builder.Services.AddScoped
+        <IImplementation, OldImplementation>();
 }
 
 
 
 var app = builder.Build();
 
-app.MapGet("/", (IImplementation ser) => ser.Message());
+app.MapGet("/", 
+    (IImplementation ser) => ser.Message());
 
 app.Run();
 

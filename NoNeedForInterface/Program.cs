@@ -5,8 +5,6 @@ builder.Services.AddSingleton<CircleService>();
 
 var app = builder.Build();
 
-
-
 app.MapGet("/", (CircleService service) => service.Get());
 
 app.Run();

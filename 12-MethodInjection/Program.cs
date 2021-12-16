@@ -1,17 +1,11 @@
-using Microsoft.AspNetCore.Mvc;
+using _12_MethodInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddSingleton
-    <GamesCacheSettings>();
+builder.Services.AddSingleton<MessageRunner>();
 
-builder.Services.AddSingleton
-    <IGameData, StaticClassGameData>();
-
-builder.Services.
-    Decorate<IGameData, CachedGameData>();
 
 var app = builder.Build();
 

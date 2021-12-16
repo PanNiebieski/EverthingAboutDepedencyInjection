@@ -361,3 +361,20 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vshistory/EverthingAboutDepedencyInjection.sln
+/03-MultipleImplementationsOfAnInterface2/Controller/.vshistory/HomeController.cs
+/05-DependencyInjectionContainerAlwaysDisposesObjects1/.vshistory/Program.cs
+/06-AlwaysValidateforCaptiveDependencies1/.vshistory/Program.cs
+/07-Decorator1/.vshistory/Program.cs
+/07-Decorator1/Controller/.vshistory/HomeController.cs
+/07-Decorator2/.vshistory/Program.cs
+/08-DetectingifaserviceisregisteredintheDIcontaine1/.vshistory/Program.cs
+/10-UsingcustomDIcontainerswithWebApplicationBuilder/.vshistory/Program.cs
+/11-Howtoregisterdependencyinjectionwithgenerictypes/.vshistory
+/12-MethodInjection/.vshistory
+/12-MethodInjection/Controller/.vshistory/HomeController.cs
+/DisposingScopedServicesonDemand/.vshistory/Program.cs
+/ImplementingDIFactory/.vshistory/Program.cs
+/ImplementingDIFactory2/.vshistory/Program.cs
+/NoNeedForInterface/.vshistory/Program.cs
+/RegisteringaServicewithMultipleInterfaces/.vshistory/Program.cs
