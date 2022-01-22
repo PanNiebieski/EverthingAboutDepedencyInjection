@@ -9,8 +9,6 @@
         _repository = repository;
         _settings = settings;
     }
-
-
     private int _count;
     public int GetCountOfGames()
     {
@@ -23,3 +21,4 @@
         return _count;
     }
 }
+

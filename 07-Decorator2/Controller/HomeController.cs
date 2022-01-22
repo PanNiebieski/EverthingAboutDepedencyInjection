@@ -5,14 +5,9 @@ using System.Text;
 
     public class HomeController : Controller
     {
-        private readonly ILogger _logger;
-
         private readonly IGameData _gameData;
-
-        public HomeController(ILogger<HomeController> logger
-            , IGameData gameData)
+        public HomeController(IGameData gameData)
         {
-            _logger = logger;
             _gameData = gameData;
         }
 
@@ -20,10 +15,7 @@ using System.Text;
         public string Index()
         {
             var count = _gameData.GetCountOfGames();
-
-
-            return $"Minuta : {DateTime.Now.Minute} : Liczba Gier {count}";
+            return $"Minute : {DateTime.Now.Minute} " +
+            $": Number of Games {count}";
         }
-
-
     }
