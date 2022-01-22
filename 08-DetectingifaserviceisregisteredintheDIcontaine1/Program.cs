@@ -1,38 +1,30 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSingleton<IGreeterService, GreeterService>();
+builder.Services.AddSingleton<ICeasarService, CeasarService>();
 
 var app = builder.Build();
 
-
-// try and get the new interface. 
-// This will return null if
-// the feature isn't yet supported by the container
+// IServiceProviderIsService exist in .NET 6
 var serviceProviderIsService = 
     app.Services.GetService<IServiceProviderIsService>();
 
-
-// The IGreeterService is registered
-// in the DI container
+// The ICeasarService is registered so this will return true
 app.MapGet("/", () => 
-serviceProviderIsService.IsService(typeof(IGreeterService)));
+serviceProviderIsService.IsService(typeof(ICeasarService)));
 
-// The GreeterService is NOT registered directly
-// in the DI container.
+// The CeasarService is NOT registered directly, so this will return false
 app.MapGet("/C", () => 
-serviceProviderIsService.IsService(typeof(GreeterService)));
-
-
+serviceProviderIsService.IsService(typeof(CeasarService)));
 
 app.Run();
 
 
 
-public class GreeterService : IGreeterService
+public class CeasarService : ICeasarService
 {
     public string SayHello() => "Hellow World!";
 }
-public interface IGreeterService
+public interface ICeasarService
 {
     string SayHello();
 }

@@ -65,7 +65,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-Howtoregisterdependencyi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-MethodInjection", "12-MethodInjection", "{11626EA0-7577-4D41-A483-AAA2F34E14FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-MethodInjection", "12-MethodInjection\12-MethodInjection.csproj", "{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-MethodInjection", "12-MethodInjection\12-MethodInjection.csproj", "{F81A4A61-6B00-4BE2-B5DD-38E20BAFC17B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E5E6740-3CF2-45E7-93AD-4A678082B820}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
